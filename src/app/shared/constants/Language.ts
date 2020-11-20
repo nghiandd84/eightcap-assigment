@@ -16,7 +16,7 @@ export const LANGUAGES: Language[] = [
         name: 'Deutsch',
     },
     {
-        key: 'vn',
+        key: 'fr',
         name: 'François',
     }
 ]
