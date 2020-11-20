@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { Language, DEFAULT_LANGUAGE, LANGUAGES } from '@shared/index';
 
 @Component({
   selector: 'app-language',
@@ -8,26 +9,18 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class LanguageComponent implements OnInit {
 
-  selectedLanguage: string | null = null;
+  selectedLanguage: Language = DEFAULT_LANGUAGE;
+  langagues: Language[] = LANGUAGES
 
-  languages = [
-    {
-      key: 'English',
-      value: 'en',
-    },
-    {
-      key: 'Chinese',
-      value: 'es',
-    },
-    {
-      key: 'Vietnamese',
-      value: 'vn'
-    }
-  ];
-
-  constructor(private translate: TranslateService) { }
+  constructor(
+    private translate: TranslateService
+  ) { }
 
   ngOnInit() {
+    console.log(this);
+    // setTimeout(()=> {
+    //   this.translate.use('de');
+    // }, 2000)
   }
 
 }

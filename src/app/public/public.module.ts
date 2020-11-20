@@ -6,22 +6,19 @@ import { PublicRoutingModule } from './public-routing.module';
 
 import * as fromContainers from './containers';
 import { SharedModule } from '../shared/shared.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
 @NgModule({
   imports: [
-    // CommonModule,
-    // FormsModule,
-    // ReactiveFormsModule,
     SharedModule,
     RouterModule,
-    PublicRoutingModule
+    PublicRoutingModule,
+    // TranslateModule.forRoot()
   ],
   providers: [
-    
+
   ],
   declarations: [
     ...fromContainers.containers

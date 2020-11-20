@@ -12,6 +12,7 @@ export class AdminGuard implements CanActivate {
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     // TODO: Implement guard
-    return Math.random() > 0.5;
+    // return Math.random() > 0.5;
+    return true;
   }
 }

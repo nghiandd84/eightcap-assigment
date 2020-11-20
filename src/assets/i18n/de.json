@@ -1,0 +1,7 @@
+{
+    "The assignment by EightCap": "DE The assignment by EightCap",
+    "An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs": "DE An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
+    "Has a child page \"about\", you can use the same 3rd party service generate paragraphs" : "DE Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
+    "Make sure the child page is lazy loaded": "DE Make sure the child page is lazy loaded",
+    "Has a language selector which should be visible on every page and should have at least 3 languages available": "DE Has a language selector which should be visible on every page and should have at least 3 languages available"
+}
