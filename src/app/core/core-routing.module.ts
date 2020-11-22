@@ -1,6 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LocalizeRouterModule, LocalizeParser, LocalizeRouterSettings, ManualParserLoader, LocalizeRouterPipe } from '@gilsdav/ngx-translate-router'
+import {
+  LocalizeRouterModule,
+  LocalizeParser,
+  LocalizeRouterSettings,
+  ManualParserLoader,
+  LocalizeRouterPipe,
+} from '@gilsdav/ngx-translate-router';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { Location } from '@angular/common';
@@ -11,7 +17,7 @@ import * as fromContainers from './containers';
 
 import { LANGUAGES } from '@shared/index';
 
-export function createTranslateLoader(http: HttpClient) {
+export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
@@ -19,20 +25,22 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: '/',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: '',
-    loadChildren: () => import('../public/public.module').then(m => m.PublicModule)
+    loadChildren: () =>
+      import('../public/public.module').then((m) => m.PublicModule),
   },
   {
     path: 'admin',
-    loadChildren: () => import('../admin/admin.module').then(m => m.AdminModule)
+    loadChildren: () =>
+      import('../admin/admin.module').then((m) => m.AdminModule),
   },
   {
     path: '**',
-    component: fromContainers.PageNotFoundComponent
-  }
+    component: fromContainers.PageNotFoundComponent,
+  },
 ];
 
 @NgModule({
@@ -42,24 +50,25 @@ const routes: Routes = [
     LocalizeRouterModule.forRoot(routes, {
       parser: {
         provide: LocalizeParser,
-        useFactory: (translate: TranslateService, location: Location, settings: LocalizeRouterSettings) => {
-          return new ManualParserLoader(translate, location, settings, LANGUAGES.map(item => item.key))
+        useFactory: (
+          translate: TranslateService,
+          location: Location,
+          settings: LocalizeRouterSettings
+        ) => {
+          return new ManualParserLoader(
+            translate,
+            location,
+            settings,
+            LANGUAGES.map((item) => item.key)
+          );
         },
-        deps: [
-          TranslateService,
-          Location,
-          LocalizeRouterSettings
-        ]
-      }
-    }
-    )
+        deps: [TranslateService, Location, LocalizeRouterSettings],
+      },
+    }),
   ],
   exports: [
-    RouterModule,
-    // TranslateModule
+    RouterModule
   ],
-  providers: [
-    LocalizeRouterPipe
-  ]
+  providers: [LocalizeRouterPipe],
 })
-export class CoreRoutingModule { }
+export class CoreRoutingModule {}
