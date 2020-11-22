@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LocalizeRouterModule, LocalizeParser, LocalizeRouterSettings, ManualParserLoader } from '@gilsdav/ngx-translate-router'
+import { LocalizeRouterModule, LocalizeParser, LocalizeRouterSettings, ManualParserLoader, LocalizeRouterPipe } from '@gilsdav/ngx-translate-router'
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { Location } from '@angular/common';
@@ -59,6 +59,7 @@ const routes: Routes = [
     // TranslateModule
   ],
   providers: [
+    LocalizeRouterPipe
   ]
 })
 export class CoreRoutingModule { }

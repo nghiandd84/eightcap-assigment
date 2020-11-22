@@ -5,8 +5,8 @@ import { RouterModule } from '@angular/router';
 import { PublicRoutingModule } from './public-routing.module';
 
 import * as fromContainers from './containers';
+import * as fromComponents from './components';
 import { SharedModule } from '../shared/shared.module';
-import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -14,14 +14,14 @@ import { TranslateModule } from '@ngx-translate/core';
   imports: [
     SharedModule,
     RouterModule,
-    PublicRoutingModule,
-    // TranslateModule.forRoot()
+    PublicRoutingModule
   ],
   providers: [
 
   ],
   declarations: [
-    ...fromContainers.containers
+    ...fromContainers.containers,
+    ...fromComponents.components
   ]
 })
 export class PublicModule { }

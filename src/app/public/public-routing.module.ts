@@ -8,24 +8,24 @@ const PUBLIC_ROUTES: Routes = [
   {
     path: '',
     component: fromContainers.LayoutComponent,
-    children:[
+    children: [
       {
         path: '',
         pathMatch: 'full',
-        component: fromContainers.HomeComponent
+        component: fromContainers.HomeComponent,
       },
       {
         path: 'about',
         pathMatch: 'full',
-        component: fromContainers.AboutComponent
-      }
-    ]
-  }
+        component: fromContainers.AboutComponent,
+      },
+    ],
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(PUBLIC_ROUTES)],
   exports: [RouterModule],
-  declarations: []
+  declarations: [],
 })
-export class PublicRoutingModule { }
+export class PublicRoutingModule {}
