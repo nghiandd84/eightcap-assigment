@@ -17,6 +17,14 @@
           >{{ "About" | translate }}</a
         >
       </li>
+      <li>
+        <a
+          [routerLink]="['admin']"
+          [routerLinkActive]="['admin']"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >{{ "Admin" | translate }}</a
+        >
+      </li>
       <li class="language">
         <app-language></app-language>
       </li>
