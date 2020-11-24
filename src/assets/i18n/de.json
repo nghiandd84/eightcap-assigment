@@ -1,7 +1,22 @@
 {
-    "The assignment by EightCap": "DE The assignment by EightCap",
-    "An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs": "DE An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
-    "Has a child page \"about\", you can use the same 3rd party service generate paragraphs" : "DE Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
-    "Make sure the child page is lazy loaded": "DE Make sure the child page is lazy loaded",
-    "Has a language selector which should be visible on every page and should have at least 3 languages available": "DE Has a language selector which should be visible on every page and should have at least 3 languages available"
+  "Home": "DE Home",
+  "About": "DE About",
+  "Admin": "DE Admin",
+  "home": {
+    "title": "DE The assignment by EightCap",
+    "text1": "DE Create an application that has",
+    "text2": "DE An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
+    "text3": "DE Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
+    "text4": "DE Make sure the child page is lazy loaded",
+    "text5": "DE Has a language selector which should be visible on every page and should have at least 3 languages available"
+  },
+
+  "about": {
+    "title": "DE About Title",
+    "line1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a aliquet est. Aenean maximus aliquam sapien vel tempus. Vivamus at turpis mauris. Donec accumsan, augue eget ultrices pharetra, neque libero faucibus turpis, id hendrerit arcu enim et odio. Duis vestibulum, augue et gravida sodales, mauris augue fermentum nibh, id molestie ex augue at nisi. Pellentesque molestie elit vitae eros consectetur, malesuada dignissim lacus sollicitudin. Proin mollis in sem sed ultrices. Sed et turpis id orci placerat maximus. Donec vitae est eget lacus auctor sodales nec non tellus. Curabitur in porttitor metus. Nam at leo in dui euismod maximus. Duis eu convallis justo. Vestibulum condimentum imperdiet ultrices.",
+    "line2": "Cras ac libero sed elit interdum feugiat a eget est. Quisque ut justo faucibus, lobortis arcu tempor, porta odio. Integer pellentesque vitae nisi ac placerat. Praesent metus ex, bibendum quis purus nec, iaculis elementum ante. Nam ut massa quam. Curabitur ultrices quam sed felis vulputate, ut egestas sapien scelerisque. Ut in arcu enim. Proin aliquet arcu egestas, vestibulum velit eu, porttitor felis. Quisque ornare, ligula at laoreet euismod, dui elit hendrerit leo, a accumsan quam ex tristique nisi. Donec eget odio id ante iaculis lobortis. Nullam varius venenatis dictum. Sed tincidunt nulla sit amet tincidunt mattis. Cras mattis purus sit amet tellus porta convallis. In mollis sit amet massa sit amet vehicula. Etiam tellus orci, malesuada vel congue vitae, sagittis sit amet ex. Praesent euismod vel nibh sed tempor.",
+    "line3": "Donec hendrerit condimentum congue. Phasellus quis varius tellus. Vestibulum dui nibh, vehicula ut porta efficitur, aliquam quis orci. Praesent eleifend vehicula tortor, vel lacinia purus gravida et. Curabitur lobortis euismod efficitur. Phasellus ultrices pulvinar nisi sit amet faucibus. Proin lobortis metus vulputate, hendrerit dui vitae, sagittis dui. Nunc ullamcorper urna sed lectus semper, eget vulputate metus lobortis. Sed nec quam elit. Aenean rhoncus purus lacinia eleifend aliquam. Ut in mi quis neque posuere pharetra a ac lectus. Quisque tempus erat eget aliquam pellentesque. Maecenas id volutpat risus, at tristique libero.",
+    "line4": "Nulla pretium tincidunt felis et finibus. Aenean rhoncus ligula nec vestibulum faucibus. Nullam tincidunt dui velit, non sagittis eros elementum in. Quisque pellentesque ligula vitae dui posuere, eu scelerisque lacus fringilla. Pellentesque interdum justo vel egestas finibus. Nam placerat tristique ligula, sed condimentum metus viverra placerat. Donec pellentesque ornare nibh eget tempor. Suspendisse a velit nec erat viverra elementum. Donec iaculis ante sit amet mauris vehicula maximus.",
+    "line5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra, ligula dictum aliquam imperdiet, felis ligula eleifend augue, ac pharetra tellus elit sit amet dui. Suspendisse vel placerat metus, sed cursus nisi. Suspendisse auctor lectus nec quam dictum sollicitudin. Aenean dignissim felis non mauris interdum sollicitudin. Aenean gravida pulvinar neque sed fermentum. Vivamus feugiat scelerisque rutrum. Sed tempus faucibus malesuada. Sed eget nibh porta risus faucibus vestibulum. Vestibulum et ultrices est. Donec mollis ullamcorper mattis. Phasellus rhoncus, magna vitae condimentum varius, sem dui ultricies nisl, sed suscipit lorem diam a mi. Nam neque orci, dapibus a fringilla eu, fermentum a neque. Integer vel arcu magna."
+  }
 }

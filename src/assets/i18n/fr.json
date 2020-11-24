@@ -1,7 +1,22 @@
 {
-    "The assignment by EightCap": "FR The assignment by EightCap",
-    "An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs": "FR An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
-    "Has a child page \"about\", you can use the same 3rd party service generate paragraphs" : "FR Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
-    "Make sure the child page is lazy loaded": "FR Make sure the child page is lazy loaded",
-    "Has a language selector which should be visible on every page and should have at least 3 languages available": "FR Has a language selector which should be visible on every page and should have at least 3 languages available"
+  "Home": "FR Home",
+  "About": "FR About",
+  "Admin": "FR Admin",
+  "home": {
+    "title": "FR The assignment by EightCap",
+    "text1": "FR Create an application that has",
+    "text2": "FR An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
+    "text3": "FR Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
+    "text4": "FR Make sure the child page is lazy loaded",
+    "text5": "FR Has a language selector which should be visible on every page and should have at least 3 languages available"
+  },
+
+  "about": {
+    "title": "FR About Title",
+    "line1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis sagittis mauris, nec sollicitudin turpis laoreet vel. Nam ut diam id neque tincidunt rutrum. Etiam sed mi vel sem eleifend vehicula eget ac felis. Aliquam congue eu ligula porttitor interdum. Aenean non tellus elit. Ut ultrices suscipit magna sit amet ornare. Phasellus vulputate imperdiet fringilla.",
+    "line2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae sapien a risus ultrices suscipit vitae ac purus. In hac habitasse platea dictumst. Proin tincidunt, arcu tincidunt luctus tristique, nibh arcu gravida erat, id egestas enim metus id diam. Praesent consectetur molestie mauris. Phasellus eu volutpat ipsum. Sed quis pretium eros, eu venenatis massa. Aenean sagittis vel sem nec semper. Aliquam cursus ullamcorper sem, sollicitudin imperdiet diam semper bibendum. Nunc bibendum commodo ex vitae dictum. Fusce blandit lacinia enim eget dapibus. Aliquam pretium enim ut rhoncus elementum. Suspendisse potenti. Quisque bibendum quam vitae eleifend mattis. Ut suscipit, justo eu placerat cursus, diam nunc consectetur metus, tincidunt porttitor augue justo ac felis.",
+    "line3": "Ut et rutrum neque. Integer sagittis nulla purus, vitae viverra est semper ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In a eros non eros suscipit vehicula at vitae felis. Vestibulum eget venenatis eros. Donec lorem est, maximus luctus nisi ut, semper lobortis mi. Integer porttitor aliquam luctus. Pellentesque id dictum dolor, a sodales purus. Phasellus id enim at libero porta egestas quis eget ligula.",
+    "line4": "Quisque erat lectus, aliquet nec mattis vel, volutpat in nisl. Morbi imperdiet, velit at convallis mattis, mi massa ultrices ligula, et vulputate ipsum leo id odio. Donec nec neque ultrices, laoreet mi sit amet, iaculis elit. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ut finibus nunc, non fringilla turpis. Nam rhoncus libero nec urna vehicula hendrerit. Donec at massa ac nulla euismod auctor in sit amet tellus. Proin placerat convallis eros, ut consectetur eros. Sed in imperdiet risus, id gravida mauris. Pellentesque libero odio, pharetra non lectus a, euismod feugiat metus. Maecenas nunc risus, porttitor sed lorem nec, porttitor pretium metus. Quisque eleifend nisl turpis, et tempus tortor vestibulum ac.",
+    "line5": "Mauris gravida ante quis mattis tristique. Pellentesque nec mauris porttitor, pellentesque dolor id, ornare metus. Duis est magna, ultricies non commodo vel, tincidunt vel urna. Curabitur egestas ligula elit, ac lobortis dolor commodo ut. Etiam nec ex mauris. Donec eu ligula id sem vulputate pharetra. Fusce vehicula ornare iaculis. Quisque cursus tortor eget malesuada scelerisque. Nulla lobortis justo non elit rhoncus vestibulum. Nullam dapibus aliquet justo, vitae condimentum dui euismod sit amet. Phasellus aliquam tincidunt purus et elementum. Etiam nec iaculis nisi. Vestibulum sit amet lectus ut sem ultrices eleifend."
+  }
 }

@@ -1,7 +1,21 @@
 {
-    "The assignment by EightCap": "EN The assignment by EightCap",
-    "An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs": "EN An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
-    "Has a child page \"about\", you can use the same 3rd party service generate paragraphs" : "EN Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
-    "Make sure the child page is lazy loaded": "EN Make sure the child page is lazy loaded",
-    "Has a language selector which should be visible on every page and should have at least 3 languages available": "EN Has a language selector which should be visible on every page and should have at least 3 languages available"
+  "Home": "EN Home",
+  "About": "EN About",
+  "Admin": "EN Admin",
+    "home": {
+        "title": "EN The assignment by EightCap",
+        "text1": "EN Create an application that has",
+        "text2": "EN An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
+        "text3": "EN Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
+        "text4": "EN Make sure the child page is lazy loaded",
+        "text5": "EN Has a language selector which should be visible on every page and should have at least 3 languages available"
+      },
+  "about": {
+    "title": "EN About Title",
+    "line1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent posuere lacinia est. Phasellus vel placerat augue. Aliquam imperdiet venenatis magna, at euismod neque pellentesque ac. Morbi dui nunc, sagittis non volutpat vel, porttitor at felis. Phasellus in posuere nisl. In hac habitasse platea dictumst. Sed non condimentum felis. Pellentesque quis laoreet risus. Integer gravida a nulla eget pellentesque. Nam bibendum felis eu quam feugiat, ut tempor ligula congue. Ut sed augue enim. Nunc odio mauris, fringilla et feugiat eget, laoreet a lacus.",
+    "line2": "Suspendisse nec ipsum at nibh porttitor finibus. Suspendisse et nunc erat. Aenean porta volutpat ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ligula est, convallis a semper egestas, suscipit eu risus. Nulla eget diam purus. Nam eget euismod quam. Sed vel augue sapien. Suspendisse mollis urna ac felis efficitur, nec interdum sapien eleifend. Morbi pharetra libero ac ex facilisis, ac egestas eros tempor. Etiam in lorem at nulla luctus porttitor. Aliquam varius, lorem a posuere tempor, odio justo varius tortor, eu mollis risus elit in magna. Aliquam vehicula turpis ac lacus pulvinar, id semper lectus imperdiet.",
+    "line3": "Maecenas non malesuada felis, eget ultricies ligula. Duis a dolor quis metus aliquam luctus a nec lorem. Suspendisse vulputate iaculis pulvinar. Curabitur feugiat sollicitudin lorem, viverra molestie tellus pharetra ut. Etiam sagittis suscipit ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam consequat magna dictum purus aliquet, sodales auctor odio malesuada. Aliquam sollicitudin molestie eros, at eleifend erat hendrerit et. Nulla congue, augue eu ornare ultrices, sem leo iaculis sapien, et commodo mi dolor in libero. Vivamus sodales rutrum lorem, feugiat fringilla lectus lobortis quis. Donec elementum ac ligula volutpat rhoncus. Fusce risus est, elementum sit amet molestie eu, commodo faucibus libero.",
+    "line4": "Cras nec ornare neque. Suspendisse sodales venenatis augue, a vestibulum ligula dapibus non. Proin quis finibus nibh, ac maximus mauris. Mauris erat dolor, sodales vel commodo in, elementum non eros. Quisque porta a massa id suscipit. Morbi faucibus molestie tellus sit amet molestie. Aliquam massa nisi, feugiat quis egestas a, efficitur placerat diam. Ut laoreet leo urna, at auctor ligula facilisis sodales. Ut dignissim eget leo vel placerat. Pellentesque convallis neque ut ullamcorper fermentum. Morbi ut ultrices magna. Sed diam turpis, iaculis id nisi vestibulum, posuere iaculis dolor. Integer vitae orci ante. Curabitur vehicula arcu gravida, molestie elit vel, mollis ipsum.",
+    "line5": "Maecenas eu tortor eget purus maximus iaculis. Ut in porttitor diam. Quisque non arcu consectetur, porta tortor et, eleifend sem. Aliquam varius bibendum rutrum. Curabitur sed posuere nulla. Praesent pellentesque dui massa, nec hendrerit dolor sodales tincidunt. Nulla a lobortis magna. Suspendisse ut bibendum mi. Pellentesque quis volutpat sem. Suspendisse potenti. Proin lobortis nisi sit amet nunc accumsan, vel semper lorem convallis. Etiam viverra sem aliquet ultricies luctus. Phasellus porttitor lobortis blandit. Donec fringilla efficitur mi eget posuere."
+  }
 }

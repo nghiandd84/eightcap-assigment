@@ -1,0 +1,19 @@
+.navbar-nav {
+  width: 100%;
+}
+.language {
+  float: right;
+}
+@media (max-width: 768px) {
+  .language {
+    float: none;
+  }
+}
+li {
+  a {
+    &.active {
+      color: #fff;
+      background-color: #080808;
+    }
+  }
+}
