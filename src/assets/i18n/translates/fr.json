@@ -1,0 +1,8 @@
+{
+  "title": "FR Assignment",
+  "menu": {
+    "Home": "FR Home",
+    "About": "FR About",
+    "Admin": "FR Admin"
+  }
+}

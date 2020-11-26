@@ -8,9 +8,28 @@ import * as fromPipes from './pipes';
 import * as fromDirectives from './directives';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { IModuleTranslationOptions, ModuleTranslateLoader } from '@larscom/ngx-translate-module-loader';
 
 export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
+export function moduleHttpLoaderFactory(http: HttpClient) {
+  const baseTranslateUrl = './assets/i18n/translates';
+
+  const options: IModuleTranslationOptions = {
+    modules: [
+      // final url: ./assets/i18n/en.json
+      { baseTranslateUrl },
+      // final url: ./assets/i18n/feature1/en.json
+      { baseTranslateUrl, moduleName: 'admin' },
+      // final url: ./assets/i18n/feature2/en.json
+      { baseTranslateUrl, moduleName: 'public' }
+    ],
+    lowercaseNamespace: true
+  };
+
+  return new ModuleTranslateLoader(http, options);
 }
 
 @NgModule({
@@ -20,10 +39,9 @@ export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
     ReactiveFormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'en',
       loader: {
         provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
+        useFactory: moduleHttpLoaderFactory,
         deps: [HttpClient]
       }
     })

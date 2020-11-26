@@ -24,6 +24,7 @@ export class LanguageComponent implements OnInit {
     this.selectedLanguage =
       this.langagues.find((item) => item.key === currentLanguage) ||
       DEFAULT_LANGUAGE;
+      console.log(this.translate);
   }
 
   onChangeLanguage(languageKey: string) {
@@ -32,5 +33,6 @@ export class LanguageComponent implements OnInit {
     this.selectedLanguage =
       this.langagues.find((item) => item.key === languageKey) ||
       DEFAULT_LANGUAGE;
+      console.log(this.translate);
   }
 }

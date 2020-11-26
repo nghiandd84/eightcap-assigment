@@ -1,15 +1,13 @@
 {
-  "Home": "EN Home",
-  "About": "EN About",
-  "Admin": "EN Admin",
-    "home": {
-        "title": "EN The assignment by EightCap",
-        "text1": "EN Create an application that has",
-        "text2": "EN An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
-        "text3": "EN Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
-        "text4": "EN Make sure the child page is lazy loaded",
-        "text5": "EN Has a language selector which should be visible on every page and should have at least 3 languages available"
-      },
+  "text": "en public",
+  "home": {
+    "title": "EN The assignment by EightCap",
+    "text1": "EN Create an application that has",
+    "text2": "EN An introduction page as a landing page, you can use https://lipsum.com/ to generate the paragraphs",
+    "text3": "EN Has a child page \"about\", you can use the same 3rd party service generate paragraphs",
+    "text4": "EN Make sure the child page is lazy loaded",
+    "text5": "EN Has a language selector which should be visible on every page and should have at least 3 languages available"
+  },
   "about": {
     "title": "EN About Title",
     "line1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent posuere lacinia est. Phasellus vel placerat augue. Aliquam imperdiet venenatis magna, at euismod neque pellentesque ac. Morbi dui nunc, sagittis non volutpat vel, porttitor at felis. Phasellus in posuere nisl. In hac habitasse platea dictumst. Sed non condimentum felis. Pellentesque quis laoreet risus. Integer gravida a nulla eget pellentesque. Nam bibendum felis eu quam feugiat, ut tempor ligula congue. Ut sed augue enim. Nunc odio mauris, fringilla et feugiat eget, laoreet a lacus.",

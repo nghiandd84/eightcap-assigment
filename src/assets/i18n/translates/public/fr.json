@@ -1,7 +1,5 @@
 {
-  "Home": "FR Home",
-  "About": "FR About",
-  "Admin": "FR Admin",
+  "text": "fr public",
   "home": {
     "title": "FR The assignment by EightCap",
     "text1": "FR Create an application that has",
