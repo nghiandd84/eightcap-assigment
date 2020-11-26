@@ -13,7 +13,7 @@ const ADMIN_ROUTES: Routes = [
       {
         path: '',
         pathMatch: 'full',
-        canActivate:[
+        canActivate: [
           fromGuards.AdminGuard
         ],
         component: fromContainers.DashboardComponent
@@ -27,4 +27,4 @@ const ADMIN_ROUTES: Routes = [
   exports: [RouterModule],
   declarations: []
 })
-export class AdminRoutingModule {}
+export class AdminRoutingModule { }
