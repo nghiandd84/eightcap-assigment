@@ -1,9 +1,9 @@
-import { Routes, RouterModule } from "@angular/router";
-import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from '@angular/core';
 
 // Containers
-import * as fromContainers from "./containers";
-import * as fromGuards from "./guards";
+import * as fromContainers from './containers';
+import * as fromGuards from './guards';
 
 const ADMIN_ROUTES: Routes = [
   {
@@ -13,18 +13,16 @@ const ADMIN_ROUTES: Routes = [
       {
         path: '',
         pathMatch: 'full',
-        canActivate: [
-          fromGuards.AdminGuard
-        ],
-        component: fromContainers.DashboardComponent
+        canActivate: [fromGuards.AdminGuard],
+        component: fromContainers.DashboardComponent,
       },
-    ]
-  }
+    ],
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(ADMIN_ROUTES)],
   exports: [RouterModule],
-  declarations: []
+  declarations: [],
 })
-export class AdminRoutingModule { }
+export class AdminRoutingModule {}

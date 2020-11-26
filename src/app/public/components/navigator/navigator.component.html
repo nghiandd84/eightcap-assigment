@@ -2,28 +2,16 @@
   <div class="container-fluid">
     <ul class="nav navbar-nav ml-auto">
       <li>
-        <a
-          [routerLink]="['/']"
-          [routerLinkActive]="['active']"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >{{ "menu.Home" | translate }}</a
-        >
+        <a [routerLink]="['/']" [routerLinkActive]="['active']"
+          [routerLinkActiveOptions]="{ exact: true }">{{ "menu.Home" | translate }}</a>
       </li>
       <li>
-        <a
-          [routerLink]="['about']"
-          [routerLinkActive]="['active']"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >{{ "menu.About" | translate }}</a
-        >
+        <a [routerLink]="['about']" [routerLinkActive]="['active']"
+          [routerLinkActiveOptions]="{ exact: true }">{{ "menu.About" | translate }}</a>
       </li>
       <li>
-        <a
-          [routerLink]="['admin']"
-          [routerLinkActive]="['admin']"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >{{ "menu.Admin" | translate }}</a
-        >
+        <a [routerLink]="['admin']" [routerLinkActive]="['admin']"
+          [routerLinkActiveOptions]="{ exact: true }">{{ "menu.Admin" | translate }}</a>
       </li>
       <li class="language">
         <app-language></app-language>

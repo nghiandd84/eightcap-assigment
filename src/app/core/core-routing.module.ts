@@ -66,9 +66,7 @@ const routes: Routes = [
       },
     }),
   ],
-  exports: [
-    RouterModule
-  ],
+  exports: [RouterModule],
   providers: [LocalizeRouterPipe],
 })
 export class CoreRoutingModule {}

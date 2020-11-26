@@ -2,13 +2,12 @@ import { Injectable } from '@angular/core';
 import {
   CanActivate,
   ActivatedRouteSnapshot,
-  RouterStateSnapshot
+  RouterStateSnapshot,
 } from '@angular/router';
 
 @Injectable()
 export class AdminGuard implements CanActivate {
-
-  constructor() { }
+  constructor() {}
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     // TODO: Implement guard

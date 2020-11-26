@@ -1,3 +1,6 @@
 {
-    "text": "en admin"
+  "text": "en admin",
+  "dashboard": {
+    "title": "FR Dash board"
+  }
 }

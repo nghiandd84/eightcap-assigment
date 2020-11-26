@@ -1,6 +1,5 @@
 /* tslint:disable:no-unused-variable */
-import {  ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LayoutComponent } from './layout.component';
 
@@ -8,12 +7,11 @@ describe('LayoutComponent', () => {
   let component: LayoutComponent;
   let fixture: ComponentFixture<LayoutComponent>;
 
-  beforeEach((() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutComponent ]
-    })
-    .compileComponents();
-  }));
+      declarations: [LayoutComponent],
+    }).compileComponents();
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(LayoutComponent);

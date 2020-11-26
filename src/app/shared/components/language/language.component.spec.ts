@@ -1,7 +1,6 @@
 /* tslint:disable:no-unused-variable */
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-
 import { LanguageComponent } from './language.component';
 
 describe('LanguageComponent', () => {
@@ -10,9 +9,8 @@ describe('LanguageComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [LanguageComponent]
-    })
-      .compileComponents();
+      declarations: [LanguageComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

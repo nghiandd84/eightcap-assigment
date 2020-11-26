@@ -8,12 +8,11 @@ import { Pipe, PipeTransform } from '@angular/core';
  *  // value.name = daniel
  *  {{ value.name | capitalizeFirst  }}
  *  fromats to: Daniel
-*/
+ */
 @Pipe({
-  name: 'capitalizeFirst'
+  name: 'capitalizeFirst',
 })
 export class CapitalizeFirstPipe implements PipeTransform {
-
   transform(value: string, args: any[]): string {
     if (value === null) return '';
     return value.charAt(0).toUpperCase() + value.slice(1);

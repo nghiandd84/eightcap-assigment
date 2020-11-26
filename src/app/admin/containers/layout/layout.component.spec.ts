@@ -1,7 +1,6 @@
 /* tslint:disable:no-unused-variable */
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-
 import { LayoutComponent } from './layout.component';
 
 describe('LayoutComponent', () => {
@@ -10,9 +9,8 @@ describe('LayoutComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutComponent ]
-    })
-    .compileComponents();
+      declarations: [LayoutComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

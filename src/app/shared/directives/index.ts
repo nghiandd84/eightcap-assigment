@@ -1,5 +1,5 @@
-import { HiddenDirective } from "./hidden.directive";
+import { HiddenDirective } from './hidden.directive';
 
 export const directives: any[] = [HiddenDirective];
 
-export * from "./hidden.directive";
+export * from './hidden.directive';

@@ -1,7 +1,6 @@
 .language-selector {
   list-style: none;
   cursor: pointer;
-
 }
 
 @media (max-width: 768px) {
@@ -53,7 +52,7 @@
     margin-right: 0px;
   }
 
-  .language-selector .dropdown-menu>li {
+  .language-selector .dropdown-menu > li {
     border-bottom: 1px solid #ebebeb;
   }
 
@@ -90,4 +89,3 @@
     }
   }
 }
-

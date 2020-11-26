@@ -1,3 +1,6 @@
 {
-    "text": "de public"
+  "text": "de public",
+  "dashboard": {
+    "title": "EN Dash board"
+  }
 }
